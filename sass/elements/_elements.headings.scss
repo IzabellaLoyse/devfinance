@@ -1,0 +1,61 @@
+/*============================================================================
+    #HEADINGS
+============================================================================= */
+
+/* Basic styles of headings. */
+
+$font-size-h1: 36px;
+$font-size-h2: 24px;
+$font-size-h3: 21px;
+$font-size-h4: 18px;
+$font-size-h5: 16px;
+$font-size-h6: 14px;
+
+
+h1 {
+  font-size: rem($font-size-h1);
+  font-weight: map-get($font-weight, thin);
+}
+
+h2 {
+  @include title-h2 (3.8rem,0.8rem,$dark-blue);
+  font-size: rem($font-size-h2);
+  font-weight: map-get($font-weight, normal);
+}
+
+h3 {
+  font-size: rem($font-size-h3);
+  font-weight: map-get($font-weight, normal);
+}
+
+h4 {
+  font-size: rem($font-size-h4);
+}
+
+h5 {
+  font-size: rem($font-size-h5);
+}
+
+h6 {
+  font-size: rem($font-size-h6);
+}
+
+
+
+
+
+
+/*============================================================================
+    #PARAGRAPH
+============================================================================= */
+
+/* Basic styles of . */
+
+p {
+  font-size: rem(32px);
+  line-height: rem(48px);
+  margin-top: rem(16px);
+}
+
+
+

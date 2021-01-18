@@ -1,0 +1,12 @@
+/*============================================================================
+    #FUNCTIONS
+============================================================================= */
+
+/* Project functions */
+
+// Function to convert pixels to REM.
+$base-size: 16px;
+
+@function rem($target) {
+  @return $target / $base-size * 1rem;
+}

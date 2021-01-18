@@ -1,0 +1,5 @@
+@mixin title-h2($margin-top, $margin-bottom, $color) {
+  margin-top: $margin-top;
+  margin-bottom: $margin-bottom;
+  color: $color;
+}

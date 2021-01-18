@@ -1,0 +1,26 @@
+/*============================================================================
+    #CARDS
+============================================================================= */
+
+/* Cards styles. */
+
+.c-card {
+  background-color: $color-logo;
+  border-radius: rem(4px);
+  color: $dark-blue;
+  margin-bottom: rem(32px);
+  padding: rem(24px) rem(32px);
+
+}
+
+
+
+
+
+/* =============================================================================
+  Color variants
+ =============================================================================*/
+.c-card--total {
+  background-color: $background-card-total;
+  color: $color-logo;
+}
