@@ -1,13 +1,11 @@
 /*============================================================================
-    #CONTAINER
+    #BALANCE
 ============================================================================= */
 
-/* Container styles. */
+/* Balance section styles */
 
-
-.c-container {
-  width: min(90vw, 800px);
-  margin: auto;
+.l-balance {
+  margin-top: rem(-128px);
 }
 
 
@@ -15,14 +13,13 @@
 
 
 /*============================================================================
-    #BALANCE
+    #CARDS-LAYOUT
 ============================================================================= */
 
-/* Balance section styles */
+/* Cards styles. */
 
-.c-balance {
-  margin-top: rem(-128px);
+.l-balance .c-card {
+  margin-bottom: rem(32px);
+  padding: rem(24px) rem(32px);
+
 }
-
-
-
