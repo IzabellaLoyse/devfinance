@@ -6,6 +6,19 @@
 
 
 .c-data-table {
+  color: $color-table;
   width: 100%;
+  border-spacing: 0 rem(8px);
+}
 
+table th {
+  font-weight: map-get($font-weight, normal);
+}
+
+table tr {
+  opacity: 0.7;
+
+  &:hover {
+    opacity: 1;
+  }
 }

@@ -8,6 +8,7 @@
 /* H1 */
 .c-header__logo {
   color: $color-logo;
+  font-weight: map-get($font-weight, thin);
 }
 
 
@@ -16,6 +17,8 @@
   color: $color-logo;
   margin-top: 0;
 }
+
+
 
 
 /* H3 */

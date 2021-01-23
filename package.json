@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/IzabellaLoyse/devfinance#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",

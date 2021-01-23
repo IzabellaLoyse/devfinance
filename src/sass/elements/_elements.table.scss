@@ -1,11 +1,23 @@
 /*============================================================================
-    #TABLE
+    #TABLE-ELEMENTS
 ============================================================================= */
 
 /* Basic table styles. */
 
 
-table {
-  border-spacing: 0;
+table td,
+table th {
+  background-color: $color-logo;
+  padding: rem(16px) rem(32px);
+}
 
+
+table th {
+  text-align: left;
+}
+
+
+table thead tr th:first-child,
+table tbody tr th:first-child {
+  border-radius: rem(4px) 0 0 rem(4px);
 }

@@ -7,9 +7,6 @@
 
 .l-header {
   background-color: $background-header;
-  padding-top: rem(32px);
-  padding-bottom: rem(160px);
-  padding-right: 0;
-  padding-left: 0;
+  padding: rem(32px) 0 rem(160px); 
   text-align: center;
 }
