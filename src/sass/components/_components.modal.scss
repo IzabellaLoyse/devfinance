@@ -1,0 +1,40 @@
+/*============================================================================
+    #MODAL
+============================================================================= */
+
+/* Modal styles. */
+
+
+.c-modal-overlay {
+  @include displayFlex(flex,center,center);
+  width: 100%;
+  height: 100%;
+  background-color: $background-modal-overlay;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.c-modal {
+  background-color: $background-modal;
+  padding: rem(38.4px);
+}
+
+
+
+
+
+/*============================================================================
+    #State Changes
+============================================================================= */
+
+/* Changes in the state of the modal */
+
+.c-modal-overlay.c-modal-overlay--active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+ 

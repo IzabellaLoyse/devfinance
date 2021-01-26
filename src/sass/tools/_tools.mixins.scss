@@ -1,5 +1,21 @@
+/*============================================================================
+    #MIXINS
+============================================================================= */
+
+/* Project mixins */
+
+
+/* H2 title configuration mixin */
 @mixin title-h2($margin-top, $margin-bottom, $color) {
   margin-top: $margin-top;
   margin-bottom: $margin-bottom;
   color: $color;
+}
+
+
+/* Display flex configuration mixin */
+@mixin displayFlex($display,$align-items,$justify) {
+  display: $display;
+  align-items: $align-items;
+  justify-content: $justify;
 }

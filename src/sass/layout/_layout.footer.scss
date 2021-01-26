@@ -7,5 +7,12 @@
 
 .l-footer{
   text-align: center;
+  padding: rem(64px) 0 rem(32px);
+  color: $dark-blue;
+  opacity: 0.6;
+
+  .c-footer__text{
+    font-size: rem(22px);
+  }
 }
 

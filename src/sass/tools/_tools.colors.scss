@@ -6,14 +6,30 @@
    /* Project color variables */
 
 
+   /* Background Colors */
+
    $background-page: #F0F2F5;
 
    $background-header: #2D4A22;
 
    $background-card-total: #49AA26;
 
+   $background-modal-overlay: rgba(0,0,0,0.7);
+
+   $background-modal: #F0F2F5 ;
+
+
+    /* UI Colors */
    $color-logo: #FFFFFF;
 
-   $dark-blue: #363F5F;  
+   $dark-blue: #363F5F; 
 
+   $color-link: #3DD705;
+
+   
+   /* Table Colors */
    $color-table:#969CB3;
+
+   $color-income: #12A454;
+
+   $color-expense: #E92929;

@@ -5,12 +5,6 @@
 /* Advanced headings styles. */
 
 
-/* H1 */
-.c-header__logo {
-  color: $color-logo;
-  font-weight: map-get($font-weight, thin);
-}
-
 
 /* H2 */
 .c-balance__title {
@@ -25,3 +19,27 @@
 .c-card__title {
   font-size: rem(16px);
 }
+
+
+
+
+
+/*==============================================================================                #SCREENHEADER
+==============================================================================*/
+
+/* H2 */
+/*  
+Trick to hide the H2 from the screen and only screen readers will read.
+*/
+.c-screen-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border-width: 0;
+}
+ 

@@ -12,9 +12,11 @@
 
 
 /* ELEMENTS */
+@import '../sass/elements/elements.page';
 @import '../sass/elements/elements.body';
 @import '../sass/elements/elements.headings';
 @import '../sass/elements/elements.table';
+@import '../sass/elements/elements.links';
 
 
 /* LAYOUT */
@@ -23,7 +25,14 @@
 @import '../sass/layout/layout.section';
 @import '../sass/layout/layout.main';
 
+
 /* COMPONENTS */
 @import '../sass/components/components.headings';
 @import '../sass/components/components.cards';
 @import '../sass/components/components.table';
+@import '../sass/components/components.links';
+@import '../sass/components/components.modal';
+
+
+/* RESPOSIVE */
+@import '../sass/responsive/responsive.responsive';

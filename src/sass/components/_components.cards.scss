@@ -8,6 +8,12 @@
   background-color: $color-logo;
   border-radius: rem(4px);
   color: $dark-blue;
+
+  .c-card__title {
+    @include displayFlex(flex,center,space-between);
+    font-weight: map-get($font-weight, normal);
+    font-size: rem(16px);
+  }
 }
 
 

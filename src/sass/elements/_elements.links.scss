@@ -1,11 +1,14 @@
 /*============================================================================
-    #CONTAINER
+    #LINKS-ELEMENTS
 ============================================================================= */
 
-/* Container styles. */
+/* Links styles. */
 
+a {
+  color: $background-card-total;
+  text-decoration: none;
 
-.c-container {
-  width: calc(min(#{90vw,800px}));
-  margin: auto;
+  &:hover {
+    color: $color-link;
+  }
 }

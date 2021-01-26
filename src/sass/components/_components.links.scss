@@ -1,11 +1,11 @@
 /*============================================================================
-    #CONTAINER
+    #LINKS-COMPONENTS
 ============================================================================= */
 
-/* Container styles. */
+/* Links styles. */
 
 
-.c-container {
-  width: calc(min(#{90vw,800px}));
-  margin: auto;
+.c-transaction__button.c-transaction__new {
+  display: inline-block;
+  margin-bottom: rem(12.8px);
 }

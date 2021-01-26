@@ -9,16 +9,36 @@
   color: $color-table;
   width: 100%;
   border-spacing: 0 rem(8px);
+  
 }
 
-table th {
+
+table thead th {
   font-weight: map-get($font-weight, normal);
 }
 
-table tr {
+
+table tbody tr {
   opacity: 0.7;
 
   &:hover {
     opacity: 1;
   }
+}
+
+
+
+/* Referring to TBODY */
+.c-table-body__description {
+  color: $dark-blue;
+}
+
+
+.c-table-body__income {
+  color: $color-income;
+}
+
+
+.c-table-body__expense {
+  color: $color-expense;
 }
