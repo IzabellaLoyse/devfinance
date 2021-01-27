@@ -68,14 +68,12 @@ gulp.task("sass", () => {
 
 /* JavaScript */
 gulp.task("javascript", () => {
-  gulp
+     return gulp
     .src("./src/js/**/*.js")
-    .pipe(concat("all.js"))
+    .pipe(concat("script.js"))
     .on("error", notify.onError("Error: <%= error.message %>"))
-    .pipe(uglify())
-    .pipe(gulp.dest("./dist/js"));
-    
-    
+    //.pipe(uglify())
+    .pipe(gulp.dest("./dist/js"));   
 });
 
 

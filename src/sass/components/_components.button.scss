@@ -1,0 +1,33 @@
+/*============================================================================
+    #BUTTON-COMPONENTS
+============================================================================= */
+
+/* Buttons styles */
+
+.c-input-group.c-actions .c-input-group__button,
+.c-input-group.c-actions  button {
+  width: 48%;
+}
+
+
+
+
+
+/*------------------------------------------------------------------------------
+Button state modifier 
+------------------------------------------------------------------------------*/
+.c-input-group--cancel {
+@include displayFlex(flex,center,center);
+color: $color-expense;
+border: 2px $color-expense solid;
+border-radius: rem(4px);
+height: 50px;
+opacity: 0.7;
+
+  &:hover {
+    color: $color-expense;
+    opacity: 1;
+
+}
+
+}

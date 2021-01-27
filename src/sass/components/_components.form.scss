@@ -1,0 +1,42 @@
+/*============================================================================
+    #FORM-COMPONENTS
+============================================================================= */
+
+/* Form styles*/
+
+.c-form {
+  max-width: 500px;
+
+  .c-form__title {
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+/* Stylization of DIV containing LABEL and INPUT */
+
+.c-input-group {
+  margin-top: rem(12.8px) ;
+}
+
+
+.c-input-group__input {
+  border: none;
+  border-radius: rem(3.2px);
+  padding: rem(12.8px);
+  width: 100%;
+
+}
+
+
+.c-input-group small {
+  opacity: 0.4;
+}
+
+
+.c-actions {
+  @include displayFlex (flex,center,space-between);
+}

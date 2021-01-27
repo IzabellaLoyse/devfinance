@@ -14,11 +14,14 @@
   top: 0;
   opacity: 0;
   visibility: hidden;
+  z-index: 999;
 }
 
 .c-modal {
   background-color: $background-modal;
   padding: rem(38.4px);
+  position: relative;
+  z-index: 1;
 }
 
 
