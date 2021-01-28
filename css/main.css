@@ -1,0 +1,844 @@
+/* TOOLS */
+/* ==========================================================================
+   #COLORS
+   ========================================================================== */
+/* Project color variables */
+/* Background Colors */
+/* UI Colors */
+/* Table Colors */
+/*============================================================================
+    #FUNCTIONS
+============================================================================= */
+/* Project functions */
+/*============================================================================
+    #MAPS 
+============================================================================= */
+/* Project maps */
+/*============================================================================
+    #MIXINS
+============================================================================= */
+/* Project mixins */
+/* H2 title configuration mixin */
+/* Display flex configuration mixin */
+/* GENERIC */
+/* ==========================================================================
+   #BOX-SIZING
+   ========================================================================== */
+/**
+ * Border-box configuration
+ */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   #RESET
+   ========================================================================== */
+/**
+ * A very simple reset that sits on top of Normalize.css.
+ */
+body,
+h1, h2, h3, h4, h5, h6,
+blockquote, p, pre,
+dl, dd, ol, ul,
+figure,
+hr,
+fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+  * Remove trailing margins from nested lists.
+  */
+li > ol,
+li > ul {
+  margin-bottom: 0;
+}
+
+/**
+  * Remove default table spacing.
+  */
+/* table {
+   border-collapse: collapse;
+   border-spacing: 0;
+ }
+  */
+/**
+  * 1. Reset Chrome and Firefox behaviour which sets a `min-width: min-content;`
+  *    on fieldsets.
+  */
+fieldset {
+  min-width: 0;
+  /* [1] */
+  border: 0;
+}
+
+/* ELEMENTS */
+/*============================================================================
+    #PAGE
+============================================================================= */
+html {
+  font-size: 93.75%;
+  /* 15px */
+}
+
+/* ==========================================================================
+   #BODY
+   ========================================================================== */
+/**
+ * Body section element settings.
+ */
+body {
+  background-color: #F0F2F5;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*============================================================================
+    #HEADINGS
+============================================================================= */
+/* Basic styles of headings. */
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  margin-top: 3.8rem;
+  margin-bottom: 0.8rem;
+  color: #363F5F;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.3125rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+/*============================================================================
+    #PARAGRAPH
+============================================================================= */
+/* Basic styles of . */
+p {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-top: 1rem;
+}
+
+/*============================================================================
+    #TABLE-ELEMENTS
+============================================================================= */
+/* Basic table styles. */
+table tbody td,
+table thead th {
+  background-color: #FFFFFF;
+  padding: 1rem 2rem;
+}
+
+table thead th {
+  text-align: left;
+}
+
+table thead tr th:first-child,
+table tbody tr th:first-child {
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+table thead tr th:last-child,
+table tbody tr th:last-child {
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+/*============================================================================
+    #LINKS-ELEMENTS
+============================================================================= */
+/* Links styles. */
+a {
+  color: #49AA26;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3DD705;
+}
+
+/*============================================================================
+    #BUTTON-ELEMENTS
+============================================================================= */
+/* Buttons styles */
+button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #49AA26;
+  padding: 0;
+  border-bottom: 0.25rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3DD705;
+}
+
+/* LAYOUT */
+/*============================================================================
+    #HEADER
+============================================================================= */
+/*  Main page header */
+.l-header {
+  background-color: #2D4A22;
+  padding: 2rem 0 10rem;
+  text-align: center;
+}
+
+/*============================================================================
+    #FOOTER
+============================================================================= */
+/* Footer styles. */
+.l-footer {
+  text-align: center;
+  padding: 4rem 0 2rem;
+  color: #363F5F;
+  opacity: 0.6;
+}
+
+.l-footer .c-footer__text {
+  font-size: 1.375rem;
+}
+
+/*============================================================================
+    #BALANCE
+============================================================================= */
+/* Balance section styles */
+.l-balance {
+  margin-top: -8rem;
+}
+
+/*============================================================================
+    #CARDS-LAYOUT
+============================================================================= */
+/* Cards styles. */
+.l-balance .c-card {
+  margin-bottom: 2rem;
+  padding: 1.5rem 2rem;
+}
+
+/*============================================================================
+    #TRANSACTION
+============================================================================= */
+/* Transaction section styles */
+.l-transaction {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+/*============================================================================
+    #CONTAINER
+============================================================================= */
+/* Container styles. */
+.c-container {
+  width: calc(min(90vw, 800px));
+  margin: auto;
+}
+
+/* COMPONENTS */
+/*============================================================================
+    #HEADINGS-COMPONENTS
+============================================================================= */
+/* Advanced headings styles. */
+/* H2 */
+.c-balance__title {
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+/* H3 */
+.c-card__title {
+  font-size: 1rem;
+}
+
+/*==============================================================================                #SCREENHEADER
+==============================================================================*/
+/* H2 */
+/*  
+Trick to hide the H2 from the screen and only screen readers will read.
+*/
+.c-screen-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/*============================================================================
+    #CARDS-COMPONENTS
+============================================================================= */
+/* Cards styles. */
+.c-card {
+  background-color: #FFFFFF;
+  border-radius: 0.25rem;
+  color: #363F5F;
+}
+
+.c-card .c-card__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* =============================================================================
+  Color variants
+ =============================================================================*/
+.c-card--total {
+  background-color: #49AA26;
+  color: #FFFFFF;
+}
+
+/*============================================================================
+    #TABLE-COMPONENTS
+============================================================================= */
+/* Advanced table styles. */
+.c-data-table {
+  color: #969CB3;
+  width: 100%;
+  border-spacing: 0 0.5rem;
+}
+
+table thead th {
+  font-weight: 400;
+}
+
+table tbody tr {
+  opacity: 0.7;
+}
+
+table tbody tr:hover {
+  opacity: 1;
+}
+
+/* Referring to TBODY */
+.c-table-body__description {
+  color: #363F5F;
+}
+
+.c-table-body__income {
+  color: #12A454;
+}
+
+.c-table-body__expense {
+  color: #E92929;
+}
+
+/*============================================================================
+    #LINKS-COMPONENTS
+============================================================================= */
+/* Links styles. */
+.c-transaction__button.c-transaction__new {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+}
+
+/*============================================================================
+    #BUTTON-COMPONENTS
+============================================================================= */
+/* Buttons styles */
+.c-input-group.c-actions .c-input-group__button,
+.c-input-group.c-actions button {
+  width: 48%;
+}
+
+/*------------------------------------------------------------------------------
+Button state modifier 
+------------------------------------------------------------------------------*/
+.c-input-group--cancel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #E92929;
+  border: 2px #E92929 solid;
+  border-radius: 0.25rem;
+  height: 50px;
+  opacity: 0.7;
+}
+
+.c-input-group--cancel:hover {
+  color: #E92929;
+  opacity: 1;
+}
+
+/*============================================================================
+    #MODAL
+============================================================================= */
+/* Modal styles. */
+.c-modal-overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 999;
+}
+
+.c-modal {
+  background-color: #F0F2F5;
+  padding: 2.4rem;
+  position: relative;
+  z-index: 1;
+}
+
+/*============================================================================
+    #State Changes
+============================================================================= */
+/* Changes in the state of the modal */
+.c-modal-overlay.c-modal-overlay--active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*============================================================================
+    #FORM-COMPONENTS
+============================================================================= */
+/* Form styles*/
+.c-form {
+  max-width: 500px;
+}
+
+.c-form .c-form__title {
+  margin-top: 0;
+}
+
+/* Stylization of DIV containing LABEL and INPUT */
+.c-input-group {
+  margin-top: 0.8rem;
+}
+
+.c-input-group__input {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.8rem;
+  width: 100%;
+}
+
+.c-input-group small {
+  opacity: 0.4;
+}
+
+.c-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* RESPOSIVE */
+@media (min-width: 800px) {
+  html {
+    font-size: 87.5%;
+    /* 14px */
+  }
+  .l-balance {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

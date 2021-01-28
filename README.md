@@ -10,7 +10,6 @@
  📌 HTML <br>
  📌 CSS <br>
  📌 SASS <br>
- 📌 GULP <br>
  📌 JAVASCRIPT <br>
  </p>
 
